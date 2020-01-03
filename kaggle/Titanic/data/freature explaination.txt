@@ -1,0 +1,20 @@
+목표 : 생존 여부 확인
+gender summision file : 여성만 살아남았다고 가정한 데이터셋이다.(제출의 형식은 이렇게!)
+
+pclas : 사회, 경제적 지위의 추정치일 수 있다.
+age : 1 살보다 적으면 분수로, 추정치는 .5로 표현한다.
+sibsp : 가족 관계를 정의한 변수다
+	sibling : 형제, 자매
+	Spouse : 남편, 아내(정부, 약혼 관계는 제외)
+
+parch : 가족 관계를 정의한 변수다.
+	parent : 엄마, 아빠
+	child : 딸, 아들(유모와 같이 탄 아이는 parch = 0 로 제시되었다.)
+
+cabin : 객실
+
+embarked : 타이타닉에 승선한 장소(C = Cherbourg, Q = Queenstown, S = Southampton)
+fare : 승선 요금
+
+<1차 가정>
+1. pclass 와 fare, cabin은 관계가 있을 것이다.

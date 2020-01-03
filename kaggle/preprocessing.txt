@@ -1,0 +1,9 @@
+저는 첨에 pandas-profile 확인하는거 추천...
+0. 독립변수간 상관관계 확인해서 다중공선성문제 확인하는것두요.
+3. 결측치는 그냥 제거하시는게 속편하지만.. imputation방법(https://www.theanalysisfactor.com/seven-ways-to-make-up-data-common-methods-to-imputing-missing-data/)
+4. Feature engineering때 파생변수 만들고, 다시 이또한 다중공선성 확인하는것두요!
+
+EDA후 업샘플링이나 오버샘플링 고려하는것두... 
+object를 꼭 int나 float이 아니더라도 카테고리컬이나 다양한 인코딩 방법들이(https://towardsdatascience.com/benchmarking-categorical-encoders-9c322bd77ee8)
+
+전처리 도도미라님 오래된 글이지만 추천함미다(http://www.dodomira.com/2016/10/20/how_to_eda/)
